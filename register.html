@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link ref='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js'></script>
+    <noscript>JavaScript is needed to run the program</noscript>
+    <title>Registration</title>
+</head>
+<body>
+    <header id='home' class='header'>
+        <nav class="nav">
+         <div class="navigation container">
+             <div class='logo'>
+                 <h1><a href='index.html'>Vidwan</a></h1>
+             </div>
+             <div class="menu">
+                 <div class="top-nav">
+                     <div class="logo">
+                         <h1><a href='index.html'>Vidwan</a></h1>
+                     </div>
+                     <div class="close">
+                         <i class='bx bx-x' ></i>
+                     </div>
+                 </div>
+                 <ul class='nav-list'>
+                     <li class='nav-item'>
+                         <a href="index.html" class="nav-link">Home</a>
+                     </li>
+                     <li class='nav-item'>
+                         <a href="product.html" class="nav-link">Product</a>
+                     </li>
+                     <li class='nav-item'>
+                         <a href="about.html" class="nav-link">About</a>
+                     </li>
+                     <li class='nav-item'>
+                         <a href="contact.html" class="nav-link">Contact</a>
+                     </li>
+                     <li class='nav-item'>
+                         <a href="loginpage.html" class="nav-link">Account</a>
+                     </li>
+                     <li class='nav-item'>
+                         <a href="shoppingcart1.html" class="nav-link icon"><i class='bx bx-shopping-bag'></i>
+                         </a>
+                     </li>
+                    
+                 </ul>
+             </div>
+             <a href="shoppingcart1.html" class="cart-icon"><i class='bx bx-shopping-bag'></i></a>
+             <div class='sidemenu'><i class='bx bx-menu'></i></div>
+         </div>
+        </nav>
+    <div class='formcontainer'>
+        <h1 id='gotohomepage'><a href='index.html' alt='' class='homelink'>Go to Main Page</a></h1>
+        <form class='form' id='form'>
+            <div id='new-header'>
+            <h2><u>Create Account</u></h2>
+            </div>
+            <br><br><br>
+            <div class='form-control'>
+                <label for='Name'>Name: </label>
+                <input type='text' placeholder='Name' id='name'>
+                <i class='fas fa-check-circle'></i>
+                <i class='fas fa-exclamation-circle'></i>
+                <small>Error Message</small>
+            </div>
+            <div class='form-control'>
+                <label for='username'>Username: </label>
+                <input type='text' placeholder='Username' id='username'>
+                <i class='fas fa-check-circle'></i>
+                <i class='fas fa-exclamation-circle'></i>
+                <small>Error Message</small>
+            </div>
+            <div class='form-control'>
+                <label for='password'>Password: </label>
+                <input type='password' placeholder='Password' id='password'>
+                <i class='fas fa-check-circle'></i>
+                <i class='fas fa-exclamation-circle'></i>
+                <small>Error Message</small>
+            </div>
+            <div class='form-control'>
+                <label for='password2'>Confirm Password: </label>
+                <input type='password' placeholder='Retype Password' id='password2'>
+                <i class='fas fa-check-circle'></i>
+                <i class='fas fa-exclamation-circle'></i>
+                <small>Error Message</small>
+            </div>
+            <div class='form-control'>
+                <label for='email'>Email: </label>
+                <input type='email' placeholder='Email' id='email'>
+                <i class='fas fa-check-circle'></i>
+                <i class='fas fa-exclamation-circle'></i>
+                <small>Error Message</small>
+            </div>
+        <input type='submit' id='submit' placeholder='Submit' name='submit'>
+        </form>
+    </div>
+    <br><br><br><br><br><br>
+    </header>
+    <footer class="footer">
+        <footer class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href='about.html'>About Us</a></li>
+                        <li><a href='register.html'>My Account</a></li>
+                        <li><a href='contact.html'>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href='faq.html'>FAQ</a></li>
+                        <li><a href='exchangeandreturn.html'>Exchange and Returns</a></li>
+                        <li><a href='delivery.html'>Delivery Information</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href='https://www.instagram.com/vishalvipin1/'><i class='fab fa-instagram'></i></a>
+                        <a href='https://www.pinterest.com/vishalvipin123/'><i class='fab fa-pinterest'></i></a>
+                        <a href='#'><i class='fab fa-facebook-f'></i></a>
+                        <a href='https://twitter.com/vishaalvipin'><i class='fab fa-twitter'></i></a>
+                        <a href='https://www.linkedin.com/in/vishaalvipin/'><i class='fab fa-linkedin-in'></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </footer>
+</body>
+</html>
+<script>
+    //Form validation
+
+const form= document.getElementById('form');
+const username=document.getElementById('username');
+const name=document.getElementById('name');
+const password=document.getElementById('password');
+const password2=document.getElementById('password2');
+const email= document.getElementById('email');
+
+form.addEventListener('submit',(e) => {
+    e.preventDefault();
+    checkInputs();
+});
+
+function checkInputs() {
+    const usernameValue=username.value.trim();
+    const emailValue=email.value.trim();
+    const passwdValue=password.value.trim();
+    const passwd2Value=password2.value.trim();
+
+    if(usernameValue==='') {
+        setErrorFor(username,'Username cannot be empty');
+    } else{
+        setSuccessFor(username);
+    }
+    
+    if(emailValue==='') {
+        setErrorFor(email,'Email cannot be empty');
+    } else if(!isEmail(emailValue)) {
+        setEmailFor(email,'Email is not valid');
+    } else{
+        setSuccessFor(email);
+    }
+
+    if(passwdValue===''){
+        setErrorFor(password,'Password cannot be blank');
+    }else{
+        setSuccessFor(password);
+    }
+    if(passwd2Value===''){
+        setErrorFor(password2,'Password cannot be blank');
+    }else if(passwdValue!==passwd2Value){
+        setErrorFor(password2,'Password doesnt match');
+    }else{
+        setSuccessFor(password2);
+    }
+
+};
+function setErrorFor(input,message) {
+    const formControl=input.parentElement;
+    const small=formControl.querySelector('small');
+
+    small.innerText=message;
+
+    formControl.className='form-control error';
+};
+
+function setSuccessFor(input){
+    const formControl=input.parentElement;
+    formControl.className='form-control success';
+};
+
+function isEmail(email){
+    return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+};
+
+//Navigation menu on other devices(resposive)
+const menu=document.querySelector('.menu');
+const navOpen=document.querySelector('.sidemenu');
+const navClose=document.querySelector('.close');
+const navBar=document.querySelector('.nav'); 
+const navLeft=menu.getBoundingClientRect().left;
+
+navOpen.addEventListener('click', () => {
+    if (navLeft < 0) {
+        menu.classList.add('show');
+        document.body.classList.add('show');
+        navBar.classList.add('show');
+    }
+});
+navClose.addEventListener('click', () => {
+    if (navLeft < 0) {
+        menu.classList.remove('show');
+        document.body.classList.remove('show');
+        navBar.classList.remove('show');
+    }
+});
+
+//Fix navigation
+const navHeight=navBar.getBoundingClientRect().height;
+
+window.addEventListener('scroll',()=> {
+    const scrollHeight=window.pageYOffset;
+    if (scrollHeight>navHeight) {
+        navBar.classList.add('fix-nav');
+    }
+    else {
+        navBar.classList.remove('fix-nav');
+    }
+})
+
+
+</script>
